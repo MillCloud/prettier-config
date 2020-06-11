@@ -1,0 +1,33 @@
+{
+  "name": "@modyqyw/prettier-config",
+  "version": "1.0.0",
+  "description": "A prettier shareable config.",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "homepage": "https://github.com/Millcloud/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/Millcloud/prettier-config/issues"
+  },
+  "license": "MIT",
+  "author": "ModyQyW <wurui7@mail3.sysu.edu.cn>",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Millcloud/prettier-config.git"
+  },
+  "dependencies": {
+    "prettier": "~2.0.0"
+  },
+  "peerDependencies": {
+    "prettier": "~2.0.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
