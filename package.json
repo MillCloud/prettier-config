@@ -18,10 +18,10 @@
     "url": "git@github.com:Millcloud/prettier-config.git"
   },
   "dependencies": {
-    "prettier": "~2.0.0"
+    "prettier": "~2.1.0"
   },
   "peerDependencies": {
-    "prettier": "~2.0.0"
+    "prettier": "~2.1.0"
   },
   "engines": {
     "node": ">=10",
