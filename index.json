@@ -15,5 +15,14 @@
   "proseWrap": "preserve",
   "htmlWhitespaceSensitivity": "css",
   "vueIndentScriptAndStyle": false,
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto",
+  "overrides": [
+    {
+      "files": "*.(c|sc|le)ss",
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
 }
