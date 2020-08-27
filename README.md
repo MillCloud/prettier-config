@@ -7,13 +7,13 @@ A prettier shareable config.
 - Install the config.
 
 ```sh
-npm i prettier@~2.0.0 @modyqyw/prettier-config@~1.0.0 -D
+npm i prettier@~2.1.0 @modyqyw/prettier-config@~1.1.0 -D
 ```
 
 For yarn, run scripts below.
 
 ```sh
-yarn add prettier@~2.0.0 @modyqyw/prettier-config@~1.0.0 -D
+yarn add prettier@~2.1.0 @modyqyw/prettier-config@~1.1.0 -D
 ```
 
 - Set up.
