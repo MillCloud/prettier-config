@@ -31,8 +31,10 @@ If you want overwrite, use `prettier.config.js`.
 
 ```js
 // prettier.config.js
+const config = require("@modyqyw/prettier-config");
+
 module.exports = {
-  ...require("@modyqyw/prettier-config"),
+  ...config,
   printWidth: 100,
 };
 ```
