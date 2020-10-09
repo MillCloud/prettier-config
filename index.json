@@ -19,9 +19,10 @@
   "embeddedLanguageFormatting": "auto",
   "overrides": [
     {
-      "files": "*.(c|sc|le)ss",
+      "files": ["*.css", "*.less", "*.scss"],
       "options": {
-        "singleQuote": false
+        "singleQuote": false,
+        "trailingComma": "none"
       }
     }
   ]
