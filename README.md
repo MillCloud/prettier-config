@@ -66,7 +66,7 @@ module.exports = {
 }
 ```
 
-For auto formatting, use `"editor.formatOnSave": true`
+For auto formatting, use `"editor.formatOnSave": true`.
 
 ## More Configs
 
