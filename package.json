@@ -1,27 +1,48 @@
 {
   "name": "@modyqyw/prettier-config",
   "version": "1.1.4",
-  "description": "A prettier shareable config.",
+  "description": "A prettier shareable config for JavaScript/TypeScript/CSS/LESS/SCSS.",
   "keywords": [
     "prettier",
-    "config"
+    "config",
+    "javascript",
+    "typescript",
+    "css",
+    "less",
+    "scss"
   ],
   "homepage": "https://github.com/Millcloud/prettier-config#readme",
   "bugs": {
     "url": "https://github.com/Millcloud/prettier-config/issues"
   },
   "license": "MIT",
-  "author": "ModyQyW <wurui7@mail3.sysu.edu.cn>",
+  "author": {
+    "name": "ModyQyW",
+    "email": "wurui7@mail3.sysu.edu.cn",
+    "url": "https://modyqyw.github.io"
+  },
   "main": "index.json",
   "repository": {
     "type": "git",
     "url": "git@github.com:Millcloud/prettier-config.git"
   },
+  "scripts": {
+    "check": "ncu",
+    "commit": "git-cz && git push",
+    "release": "np --no-tests --no-release-draft"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "dependencies": {
     "prettier": "~2.1.0"
   },
-  "peerDependencies": {
-    "prettier": "~2.1.0"
+  "devDependencies": {
+    "commitizen": "~4.2.0",
+    "np": "~6.5.0",
+    "npm-check-updates": "~9.1.0"
   },
   "engines": {
     "node": ">=10",
