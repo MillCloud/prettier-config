@@ -33,76 +33,16 @@ module.exports = {
 };
 ```
 
-Set up `husky` and `lint-staged` in `${PROJECT_DIR}/package.json`. Skip this part if you don't need them.
-
-```json
-{
-  ...,
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier --write"
-    ],
-    "*.{css,less,scss}": [
-      "prettier --write"
-    ]
-  }
-  ...
-}
-```
-
-It is recommended to use `prettier` formatting before using `eslint`, `stylelint` or other linters, instead of after or apply `prettier` rules in them.
-
-```json
-{
-  ...,
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "eslint --fix"
-    ],
-    "*.{css,less,scss}": [
-      "prettier --write",
-      "stylelint --fix"
-    ]
-  }
-  ...
-}
-```
-
 ## VSCode
 
 - Install plugins.
-  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 - Set up `Settings.json`. Then `F1 => Format Document` => `F1 => File: Save`.
 
 ```json
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "emmet.includeLanguages": {
-    "vue-html": "html"
-  },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "vue"
-  ],
   "files.eol": "\n",
   "files.associations": {
     "*.wxml": "html",
@@ -125,6 +65,8 @@ It is recommended to use `prettier` formatting before using `eslint`, `stylelint
   }
 }
 ```
+
+For auto formatting, use `"editor.formatOnSave": true`
 
 ## More Configs
 
