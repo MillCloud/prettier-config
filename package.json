@@ -28,19 +28,12 @@
   },
   "scripts": {
     "check": "ncu",
-    "commit": "git-cz && git push",
     "release": "np --no-tests --no-release-draft"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   },
   "dependencies": {
     "prettier": "~2.1.0"
   },
   "devDependencies": {
-    "commitizen": "~4.2.0",
     "np": "~6.5.0",
     "npm-check-updates": "~9.1.0"
   },
