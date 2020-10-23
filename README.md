@@ -20,10 +20,10 @@ Set `prettier` field in `${PROJECT_DIR}/package.json`.
 }
 ```
 
-Or, use `prettier.config.js` if you want to overwrite.
+Or, use `${PROJECT_DIR}/prettier.config.js` if you want to overwrite.
 
 ```js
-// prettier.config.js
+// ${PROJECT_DIR}/prettier.config.js
 const config = require("@modyqyw/prettier-config");
 
 module.exports = {
