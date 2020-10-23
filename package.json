@@ -11,9 +11,9 @@
     "less",
     "scss"
   ],
-  "homepage": "https://github.com/Millcloud/prettier-config#readme",
+  "homepage": "https://github.com/MillCloud/prettier-config#readme",
   "bugs": {
-    "url": "https://github.com/Millcloud/prettier-config/issues"
+    "url": "https://github.com/MillCloud/prettier-config/issues"
   },
   "license": "MIT",
   "author": {
@@ -24,7 +24,7 @@
   "main": "index.json",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Millcloud/prettier-config.git"
+    "url": "git@github.com:MillCloud/prettier-config.git"
   },
   "scripts": {
     "check": "ncu",
