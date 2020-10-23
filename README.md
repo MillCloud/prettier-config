@@ -5,9 +5,9 @@ A prettier shareable config for JavaScript/TypeScript/CSS/LESS/SCSS.
 ## Usage
 
 ```sh
-npm i -D prettier@~2.1.0 @modyqyw/prettier-config@~1.1.0 husky@~4.3.0 lint-staged@~10.4.0
+npm i -D prettier@~2.1.0 @modyqyw/prettier-config@~1.1.0
 # or
-#yarn add -D prettier@~2.1.0 @modyqyw/prettier-config@~1.1.0 husky@~4.3.0 lint-staged@~10.4.0
+#yarn add -D prettier@~2.1.0 @modyqyw/prettier-config@~1.1.0
 ```
 
 Set `prettier` field in `${PROJECT_DIR}/package.json`.
