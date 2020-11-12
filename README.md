@@ -2,12 +2,16 @@
 
 A prettier shareable config for JavaScript/TypeScript/CSS/LESS/SCSS.
 
+Will be dropped in the future. Try [@modyqyw/fabric](#more-configs).
+
+[Github](https://github.com/MillCloud/prettier-config#readme) | [Gitee](https://gitee.com/millcloud/prettier-config#readme)
+
 ## Usage
 
 ```sh
-npm i -D prettier@~2.1.0 @modyqyw/prettier-config@~1.1.0
+npm i -D prettier@~2.1.2 @modyqyw/prettier-config@~1.1.8
 # or
-#yarn add -D prettier@~2.1.0 @modyqyw/prettier-config@~1.1.0
+#yarn add -D prettier@~2.1.2 @modyqyw/prettier-config@~1.1.8
 ```
 
 Set `prettier` field in `${PROJECT_DIR}/package.json`.
@@ -20,7 +24,7 @@ Set `prettier` field in `${PROJECT_DIR}/package.json`.
 }
 ```
 
-Or, use `${PROJECT_DIR}/prettier.config.js` if you want to overwrite.
+Or use `${PROJECT_DIR}/prettier.config.js` if you want to overwrite.
 
 ```js
 // ${PROJECT_DIR}/prettier.config.js
@@ -70,9 +74,11 @@ For auto formatting, use `"editor.formatOnSave": true`.
 
 ## More Configs
 
-- [@modyqyw/prettier-config](https://github.com/MillCloud/prettier-config#readme)
-- [@modyqyw/eslint-config](https://github.com/MillCloud/eslint-config#readme)
-- [@modyqyw/stylelint-config](https://github.com/MillCloud/stylelint-config#readme)
+- `@modyqyw/prettier-config` - [Github](https://github.com/MillCloud/prettier-config#readme) [Gitee](https://gitee.com/millcloud/prettier-config#readme)
+- `@modyqyw/eslint-config` - [Github](https://github.com/MillCloud/eslint-config#readme) [Gitee](https://gitee.com/millcloud/eslint-config#readme)
+- `@modyqyw/stylelint-config` - [Github](https://github.com/MillCloud/stylelint-config#readme) [Gitee](https://gitee.com/millcloud/stylelint-config#readme)
+
+`@modyqyw/eslint-config` and `@modyqyw/stylelint-config` do not use any `Prettier` config and plugin, while `@modyqyw/fabric` does.
 
 ## License
 

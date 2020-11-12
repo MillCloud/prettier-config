@@ -1,6 +1,6 @@
 {
   "name": "@modyqyw/prettier-config",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A prettier shareable config for JavaScript/TypeScript/CSS/LESS/SCSS.",
   "keywords": [
     "prettier",
@@ -21,7 +21,7 @@
     "email": "wurui7@mail3.sysu.edu.cn",
     "url": "https://modyqyw.github.io"
   },
-  "main": "index.json",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:MillCloud/prettier-config.git"
@@ -30,13 +30,30 @@
     "check": "ncu",
     "release": "np --no-tests --no-release-draft"
   },
-  "dependencies": {
-    "prettier": "~2.1.0"
-  },
   "devDependencies": {
-    "np": "~6.5.0",
-    "npm-check-updates": "~9.1.0"
+    "babel-eslint": "~10.1.0",
+    "eslint": "~7.13.0",
+    "eslint-config-prettier": "~6.15.0",
+    "eslint-plugin-prettier": "~3.1.4",
+    "husky": "~4.3.0",
+    "lint-staged": "~10.5.1",
+    "np": "~7.0.0",
+    "npm-check-updates": "~10.0.0",
+    "prettier": "~2.1.2"
   },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "parser": "babel-eslint",
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "prettier": "./index.js",
   "engines": {
     "node": ">=10",
     "npm": ">=6"
