@@ -1,17 +1,15 @@
+**DEPRECATED. Check [@modyqyw/fabric](https://github.com/MillCloud/fabric).**
+
 # @modyqyw/prettier-config
 
 A prettier shareable config for JavaScript/TypeScript/CSS/LESS/SCSS.
 
-Will be dropped in the future. Try [@modyqyw/fabric](#more-configs).
-
-[Github](https://github.com/MillCloud/prettier-config#readme) | [Gitee](https://gitee.com/millcloud/prettier-config#readme)
-
 ## Usage
 
 ```sh
-npm i -D prettier@~2.1.2 @modyqyw/prettier-config@~1.1.8
+npm i -D prettier@~2.1.2 @modyqyw/prettier-config@~1.1.9
 # or
-#yarn add -D prettier@~2.1.2 @modyqyw/prettier-config@~1.1.8
+#yarn add -D prettier@~2.1.2 @modyqyw/prettier-config@~1.1.9
 ```
 
 Set `prettier` field in `${PROJECT_DIR}/package.json`.
@@ -32,7 +30,7 @@ const config = require("@modyqyw/prettier-config");
 
 module.exports = {
   ...config,
-  // an example below
+  // write your own rules here
   printWidth: 100,
 };
 ```
